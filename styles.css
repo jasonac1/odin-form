@@ -30,7 +30,11 @@ body {
 
 /* left */
 .left {
-    background: center url("images/tr-ng-tuy-t-ly-NYFju4JwP9A-unsplash.jpg");
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     color: white;
     flex: 35;
 }
