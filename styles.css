@@ -92,6 +92,54 @@ a:hover, a:active {
     margin-left: 4rem;
 }
 
+form {
+    background-color: white;
+    box-shadow: 0 4px 4px lightgray;
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+}
+
+h1, p {
+    margin-bottom: 1rem;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+
+    width: 70%;
+}
+
+.form-control {
+    flex-basis: 50%;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+label + input {
+    display: block;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+
+    font-size: 1.1rem;
+
+    height: 2.5rem;
+    width: 70%;
+
+    padding-left: 0.6rem;
+
+    &:focus {
+        border-color: slateblue;
+        box-shadow: 2px 2px 2px lightgray;
+        outline: none;
+    }
+} 
+
 /* .left, .right {
     outline: auto;
 } */
