@@ -84,11 +84,11 @@ a:hover, a:active {
 
 .cta {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 
     max-width: 55ch;
-    margin-top: 10rem;
-    margin-left: 8rem;
+    margin-top: 8rem;
+    margin-left: 4rem;
 }
 
 /* .left, .right {
