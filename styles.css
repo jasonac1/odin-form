@@ -101,7 +101,7 @@ form {
     padding-left: 4rem;
 }
 
-h1, p {
+form > h1, form > p {
     margin-bottom: 1rem;
 }
 
