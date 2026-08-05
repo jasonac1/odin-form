@@ -1,0 +1,79 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main styles */
+@font-face {
+    font-family: "Norse";
+    src: url(fonts/norse-webfont.woff) format("woff"),
+        url(fonts/norse-webfont.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* left */
+.left {
+    background: center url("images/tr-ng-tuy-t-ly-NYFju4JwP9A-unsplash.jpg");
+    color: white;
+    flex: 35;
+}
+
+.container-logo {
+    background-color: rgb(0 0 0 / 50%);
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    font: bold 6rem "Norse", sans-serif;
+
+    height: 15%;
+    margin-top: 20vh;
+}
+
+img {
+    height: 80%;
+    width: auto;
+}
+
+.credits {
+    margin-top: 60vh;
+    text-align: center;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:active {
+    color: blue;
+}
+
+.right {
+    flex: 75;
+}
+
+.left, .right {
+    outline: auto;
+}
