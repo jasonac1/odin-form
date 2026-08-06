@@ -12,8 +12,6 @@
     padding: 0;
 }
 
-
-
 /* Main styles */
 @font-face {
     font-family: "Norse";
@@ -176,7 +174,3 @@ button {
         font-weight: bold;
     }
 }
-
-/* .left, .right {
-    outline: auto;
-} */
