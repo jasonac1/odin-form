@@ -101,6 +101,10 @@ form > h1, form > p {
     margin-bottom: 1rem;
 }
 
+form > h1 {
+    font-weight: 500;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
