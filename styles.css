@@ -22,6 +22,10 @@
     font-display: swap;
 }
 
+:root {
+    --left-indent: 4rem; 
+}
+
 body {
     background-color: rgb(250 250 250);
     display: flex;
@@ -87,7 +91,7 @@ a:hover, a:active {
 
     max-width: 55ch;
     margin-top: 8rem;
-    margin-left: 4rem;
+    margin-left: var(--left-indent);
 }
 
 form {
@@ -96,7 +100,7 @@ form {
     margin-top: 4rem;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
-    padding-left: 4rem;
+    padding-left: var(--left-indent);
 }
 
 form > h1, form > p {
@@ -155,7 +159,7 @@ button {
     width: 20%;
 
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: var(--left-indent);
 
     &:hover {
         background-color: #698155;
@@ -167,7 +171,7 @@ button {
     font-size: 1.2rem;
 
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: var(--left-indent);
 
     span {
         color: #596D48;
