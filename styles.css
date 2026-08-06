@@ -139,7 +139,31 @@ label + input {
         box-shadow: 2px 2px 2px lightgray;
         outline: none;
     }
-} 
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    box-shadow: 4px 4px 4px lightgray;
+
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    height: 3.5rem;
+    width: 20%;
+
+    margin-top: 2rem;
+    margin-left: 4rem;
+
+    &:hover {
+        background-color: #698155;
+        cursor: pointer;
+    }
+}
 
 /* .left, .right {
     outline: auto;
