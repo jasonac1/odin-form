@@ -13,7 +13,6 @@ This is my take on the Sign-up Form project of The Odin Project.
 ├── index.html
 ├── README.md
 └── styles.css
-
 ```
 
 ### Live Page
