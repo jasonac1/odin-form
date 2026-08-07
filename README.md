@@ -5,8 +5,6 @@ This is my take on the Sign-up Form project of The Odin Project.
 ```bash
 . (odin-form)
 ├── fonts
-│   ├── norsebold-webfont.woff
-│   ├── norsebold-webfont.woff2
 │   ├── norse-webfont.woff
 │   └── norse-webfont.woff2
 ├── images
@@ -15,6 +13,7 @@ This is my take on the Sign-up Form project of The Odin Project.
 ├── index.html
 ├── README.md
 └── styles.css
+
 ```
 
 ### Live Page
