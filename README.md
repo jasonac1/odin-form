@@ -3,7 +3,7 @@ This is my take on the Sign-up Form project of The Odin Project.
 
 ### Project Structure
 ```bash
-.
+. (odin-form)
 ├── fonts
 │   ├── norsebold-webfont.woff
 │   ├── norsebold-webfont.woff2
@@ -18,6 +18,7 @@ This is my take on the Sign-up Form project of The Odin Project.
 ```
 
 ### Live Page
+View it live [here](https://jasonac1.github.io/odin-form/)
 
 ### Credits
 - [Roboto](https://fonts.google.com/specimen/Roboto) font by Google 
