@@ -5,6 +5,7 @@ This is my take on the Sign-up Form project of The Odin Project.
 ```bash
 . (odin-form)
 ├── fonts
+│   ├── freefont_license.txt
 │   ├── norse-webfont.woff
 │   └── norse-webfont.woff2
 ├── images
@@ -19,5 +20,6 @@ This is my take on the Sign-up Form project of The Odin Project.
 View it live [here](https://jasonac1.github.io/odin-form/)
 
 ### Credits
+- [Norse](https://www.joelcarrouche.com/fonts/norse) font by [Joël Carrouché](https://www.joelcarrouche.com/) 
 - [Roboto](https://fonts.google.com/specimen/Roboto) font by Google 
 - [Photo](https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) by [Halie West](https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
