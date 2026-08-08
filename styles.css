@@ -117,12 +117,12 @@ section {
     flex-basis: 50%;
 }
 
-label {
+.label {
     letter-spacing: 10%;
     text-transform: uppercase;
 }
 
-label + input {
+.label + input {
     display: block;
     border: 2px solid #E5E7EB;
     border-radius: 6px;
